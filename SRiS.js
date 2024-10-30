@@ -7,8 +7,14 @@ Examples:
 
 Note: This approach uses the absolute value of each resistance to ensure all values are positive.*/
 
-const resistencias = [14, 3.5, 6, 3, 1,6, 2.3];
+const resistencias = [14, 3.5, 6, 3, 1, 6, 2.3];
 let sum = 0;
 for(let i=0; i<resistencias.length;i++){
     sum += resistencias[i];
 }console.log(sum);
+
+const resistencias2 = [23, 31, 12, 13, 5, 7, 3];
+let sum2 = 0;
+for(let i=0; i<resistencias2.length;i++){
+    sum2 += resistencias2[i];
+}console.log(sum2);
